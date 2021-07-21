@@ -1,2 +1,4 @@
 *.secret
 *.xml
+__pycache__
+*.pyc
