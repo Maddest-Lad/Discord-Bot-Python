@@ -35,6 +35,7 @@ async def on_message(message):
         await message.channel.send(utils.roll_dice(message.content))
 
 # DM new members a welcome message
+# requires the bot to have the server members intent https://discord.com/developers
 @client.event
 async def on_member_join(member):
     embed = discord.Embed(
